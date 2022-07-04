@@ -1,5 +1,5 @@
 #include <iostream>
-
+using namespace std;
 int main(){
   int t,i,x,res,ult,fi;
   cin>>t;
