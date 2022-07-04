@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 int main(){
   int t,i,n,x,y;
   cin>>t;
