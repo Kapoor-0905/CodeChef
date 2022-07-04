@@ -4,6 +4,7 @@ int main(){
   int t,i,x,res,ult,fi;
   scanf("%d",&t);
   for(i=0;i<t;i++){
+    scanf("%d",&x);
     if(x==0 || x%3==0){
       printf("0");
     }
