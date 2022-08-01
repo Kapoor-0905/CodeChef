@@ -6,9 +6,9 @@ int main(){
   for(i=0;i<t;i++){
     scanf("%d%d",&x,&y);
     if(y>=x && y<=x+200){
-      printf("YES");
+      printf("YES\n");
     }
-    else printf("NO");
+    else printf("NO\n");
   }
   return 0;
 }
