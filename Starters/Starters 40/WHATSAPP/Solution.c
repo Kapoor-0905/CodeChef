@@ -2,9 +2,10 @@
 
 int main(){
   int t,i,x,y,z,ab;
-  scanf
-
-t = int(input())
-for i in range(t):
-    x,y,z = input().split()
-    print((int(x)*int(z))-(int(y)*int(z)))
+  scanf("%d",&t);
+  for(i=0;i<t;i++){
+    scanf("%d%d%d",&x,&y,&z);
+    printf("%d",(x*z - y*z));
+  }
+  return 0;
+}
